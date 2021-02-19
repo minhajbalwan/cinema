@@ -1,0 +1,833 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/movies.css"/>
+    <link rel="shortcut icon" href="images/fav icon.png">
+    <script data-ad-client="ca-pub-3173149640616309" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <title>All Movies</title>
+  </head>
+  <body>
+    
+    <nav>
+      <a href="index.html" class="logo">
+          <img src="images/fav icon.png" alt="logo" />
+      </a>
+      <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+      </ul>
+      <div class="search">
+        <input type="text" id="myInput" onkeyup="mySearchFunction()" placeholder="Search..." />
+        <i class="fa fa-search"></i>
+      </div>
+    </nav>
+
+    <ul id="list">
+      <li class="item-a">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Tenet.mp4">
+                    <img src="images/m-1.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Tenet.mp4">
+                    <strong>Tenet</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-b">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Beauty.And.The.Beast.mp4">
+                    <img src="images/m-3.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Beauty.And.The.Beast.mp4">
+                    <strong>Beauty And The Beast</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-c">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Godzilla.King.Of.The.Monsters.mp4">
+                    <img src="images/m-4.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Godzilla.King.Of.The.Monsters.mp4">
+                    <strong>Godzilla The King Of Monsters</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-d">
+          <div class="latest-box">
+              <div class="latest-b-img">
+                  <a href="movies/Captain.America.The.Winter.Soldier.mp4">
+                      <img src="images/m-5.jpg" alt="">
+                  </a>
+              </div>
+              <div class="latest-b-text">
+                  <a href="movies/Captain.America.The.Winter.Soldier.mp4">
+                      <strong>Captain America: The Winter Soldier</strong>
+                  </a>
+              </div>
+          </div>
+      </li>
+      <li class="item-e">
+          <div class="latest-box">
+              <div class="latest-b-img">
+                  <a href="movies/Iron.Man.3.mp4">
+                      <img src="images/m-6.jpg" alt="Iron Man 3">
+                  </a>
+              </div>
+              <div class="latest-b-text">
+                  <a href="movies/Iron.Man.3.mp4">
+                      <strong>Iron Man 3</strong>
+                  </a>
+              </div>
+          </div>
+      </li>
+      <li class="item-f">
+          <div class="latest-box">
+              <div class="latest-b-img">
+                  <a href="movies/Avengers.Endgame.mp4">
+                      <img src="images/m-7.jpg" alt="">
+                  </a>
+              </div>
+              <div class="latest-b-text">
+                  <a href="movies/Avengers.Endgame.mp4">
+                      <strong>Avengers: Endgame</strong>
+                  </a>
+              </div>
+          </div>
+      </li>
+      <li class="item-g">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Bloodshot.mp4">
+                    <img src="images/m-11.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Bloodshot.mp4">
+                    <strong>Bloodshot</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-h">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Fantastic.Beasts.and.Where.to.Find.Them.mp4">
+                    <img src="images/m-13.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Fantastic.Beasts.and.Where.to.Find.Them.mp4">
+                    <strong>Fantastic Beasts and Where to Find Them</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-i">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/The.New.Mutants.mp4">
+                    <img src="images/m-10.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/The.New.Mutants.mp4">
+                    <strong>The New Mutants</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-k">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Bad.Boys.For.Life.mp4">
+                    <img src="images/m-9.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Bad.Boys.For.Life.mp4">
+                    <strong>Bad Boys For Life</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-j">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Fantastic.Beasts.The.Crimes.Of.Grindelwald.mp4">
+                    <img src="images/m-12.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Fantastic.Beasts.The.Crimes.Of.Grindelwald.mp4">
+                    <strong>Fantastic Beasts The Crimes of Grindelwald</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-k">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/John.Wick.Chapter.2.mp4">
+                    <img src="images/m-14.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/John.Wick.Chapter.2.mp4">
+                    <strong>John Wick: Chapter 2</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-l">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/John.Wick.Chapter.3.mp4">
+                    <img src="images/m-8.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/John.Wick.Chapter.3.mp4">
+                    <strong>John Wick: Chapter 3</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-m">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Avengers.Infinity.War.mp4">
+                    <img src="images/m-2.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Avengers.Infinity.War.mp4">
+                    <strong>Avengers: Infinity War</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-n">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Joker.mp4">
+                    <img src="images/m-15.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Joker.mp4">
+                    <strong>Joker</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-o">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Captain.America.The.First.Avenger.mp4">
+                    <img src="images/m-16.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Captain.America.The.First.Avenger.mp4">
+                    <strong>Captain America: The First Avenger</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-p">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Once.Upon.A.Time.In.Hollywood.mp4">
+                    <img src="images/m-18.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Once.Upon.A.Time.In.Hollywood.mp4">
+                    <strong>Once Upon A Time In Hollywood</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-q">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Captain.America.Civil.War.mp4">
+                    <img src="images/m-17.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Captain.America.Civil.War.mp4">
+                    <strong>Captain America: Civil War</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-r">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.mp4">
+                    <img src="images/m-19.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Pirates.of.the.Caribbean.Curse.of.the.Black.Pearl.mp4">
+                    <strong>Pirates Of The Caribbean (1): Curse Of the Black Pearl</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-s">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Pirates.of.the.Caribbean.Dead.Man's.Chest.mp4">
+                    <img src="images/m-20.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Pirates.of.the.Caribbean.Dead.Man's.Chest.mp4">
+                    <strong>Pirates Of The Caribbean (2): Dead Man's Chest</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-t">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Grown.Ups.2.mp4">
+                    <img src="images/m-22.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Grown.Ups.2.mp4">
+                    <strong>Grown Ups 2</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-u">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Grown.Ups.mp4">
+                    <img src="images/m-21.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Grown.Ups.mp4">
+                    <strong>Grown Ups</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-v">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Pirates.of.the.Caribbean.At.Worlds.End.mp4">
+                    <img src="images/m-23.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Pirates.of.the.Caribbean.At.Worlds.End.mp4">
+                    <strong>Pirates of the Caribbean: At World's End</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-w">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Pirates.of.the.Caribbean.On.Stranger.Tides.mp4">
+                    <img src="images/m-24.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Pirates.of.the.Caribbean.On.Stranger.Tides.mp4">
+                    <strong>Pirates Of The Caribbean: On Stranger Tides</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-x">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Pirates.Of.The.Caribbean.Dead.Men.Tell.No.Tales.mp4">
+                    <img src="images/m-25.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Pirates.Of.The.Caribbean.Dead.Men.Tell.No.Tales.mp4">
+                    <strong>Pirates Of The Caribbean Dead Men Tell No Tales</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-x">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Now.You.See.Me.mp4">
+                    <img src="images/m-26.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Now.You.See.Me.mp4">
+                    <strong>Now You See Me</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item-z">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Now.You.See.Me.2.mp4">
+                    <img src="images/m-27.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Now.You.See.Me.2.mp4">
+                    <strong>Now You See Me 2</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/AntMan.and.The.Wasp.mp4">
+                    <img src="images/m-28.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/AntMan.and.The.Wasp.mp4">
+                    <strong>Ant Man And The Wasp</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Thor.mp4">
+                    <img src="images/m-32.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Thor.mp4">
+                    <strong>Thor (1)</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Inception.mp4">
+                    <img src="images/m-29.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Inception.mp4">
+                    <strong>Inception</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Iron.Man.2.mp4">
+                    <img src="images/m-30.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Iron.Man.2.mp4">
+                    <strong>Iron Man 2</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Iron.Man.mp4">
+                    <img src="images/m-31.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Iron.Man.mp4">
+                    <strong>Iron Man</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Thor.The.Dark.World.mp4">
+                    <img src="images/m-33.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Thor.The.Dark.World.mp4">
+                    <strong>Thor(2) The Dark World</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/The.Avengers.mp4">
+                    <img src="images/m-34.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/The.Avengers.mp4">
+                    <strong>The Avengers(1)</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Avengers.Age.of.Ultron.mp4">
+                    <img src="images/m-35.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Avengers.Age.of.Ultron.mp4">
+                    <strong>Avengers: Age Of Ultron</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Black.Panther.mp4">
+                    <img src="images/m-36.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Black.Panther.mp4">
+                    <strong>Black Panther</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Guardians.of.the.Galaxy.mp4">
+                    <img src="images/m-37.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Guardians.of.the.Galaxy.mp4">
+                    <strong>Guardians of the Galaxy</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Guardians.of.the.Galaxy.2.mp4">
+                    <img src="images/m-38.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Guardians.Of.The.Galaxy.2.mp4">
+                    <strong>Guardians of the Galaxy 2</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Rambo.Last.Blood.mp4">
+                    <img src="images/m-39.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Rambo.Last.Blood.mp4">
+                    <strong>Rambo Last Blood</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Deadpool.2.mp4">
+                    <img src="images/m-40.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Deadpool.2.mp4">
+                    <strong>Deadpool 2</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/The.Incredible.Hulk.mp4">
+                    <img src="images/m-41.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/The.Incredible.Hulk.mp4">
+                    <strong>The Incredible Hulk</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Spider-Man.Far.From.Home.mp4">
+                    <img src="images/m-42.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Spider-Man.Far.From.Home.mp4">
+                    <strong>Spider Man Far From Home</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Spider-Man.Homecoming.mp4">
+                    <img src="images/m-43.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Spider-Man.Homecoming.mp4">
+                    <strong>Spider Man Homecoming</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Captain.Marvel.mp4">
+                    <img src="images/m-44.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Captain.Marvel.mp4">
+                    <strong>Captain Marvel</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Star.Wars.Episode.IX.-.The.Rise.Of.Skywalker.mp4">
+                    <img src="images/m-45.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Star.Wars.Episode.IX.-.The.Rise.Of.Skywalker.mp4">
+                    <strong>Star Wars: The Rise Of Skywalker</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Godzilla.Planet.Of.The.Monsters.mp4">
+                    <img src="images/m-46.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Godzilla.Planet.Of.The.Monsters.mp4">
+                    <strong>Godzilla: Planet Of The Monsters</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Kong.Skull.Island.mp4">
+                    <img src="images/m-47.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Kong.Skull.Island.mp4">
+                    <strong>Kong: Skull Island</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Solo.A.Star.Wars.Story.mp4">
+                    <img src="images/m-48.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Solo.A.Star.Wars.Story.mp4">
+                    <strong>Solo: A Star War Story</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Star.Wars.The.Phantom.Menace.mp4">
+                    <img src="images/m-49.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Star.Wars.The.Phantom.Menace.mp4">
+                    <strong>Star Wars: The Phantom Menace</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Star.Wars.A.New.Hope.mp4">
+                    <img src="images/m-50.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Star.Wars.A.New.Hope.mp4">
+                    <strong>Star Wars: A New Hope</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Star.Wars.Return.of.the.Jedi.mp4">
+                    <img src="images/m-51.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Star.Wars.Return.of.the.Jedi.mp4">
+                    <strong>Star Wars: Return of the Jedi</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Fast.&.Furious.Presents.Hobbs.&.Shaw.mp4">
+                    <img src="images/m-52.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Fast.&.Furious.Presents.Hobbs.&.Shaw.mp4">
+                    <strong>Fast & Furious: Hobbs & Shaw</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/Fast.Five.mp4">
+                    <img src="images/m-53.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/Fast.Five.mp4">
+                    <strong>Fast Five</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/The.Fast.and.the.Furious.Tokyo.Drift.mp4">
+                    <img src="images/m-54.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/The.Fast.and.the.Furious.Tokyo.Drift.mp4">
+                    <strong>Fast & Furious: Tokyo Drift</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/The.Fast.and.the.Furious.mp4">
+                    <img src="images/m-55.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/The.Fast.and.the.Furious.mp4">
+                    <strong>The Fast & The Furious</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+      <li class="item">
+        <div class="latest-box">
+            <div class="latest-b-img">
+                <a href="movies/The.Fate.Of.The.Furious.mp4">
+                    <img src="images/m-56.jpg" alt="">
+                </a>
+            </div>
+            <div class="latest-b-text">
+                <a href="movies/The.Fate.Of.The.Furious.mp4">
+                    <strong>The Fate Of The Furious</strong>
+                </a>
+            </div>
+        </div>
+      </li>
+    </ul>
+      
+    <script>
+      function mySearchFunction() {
+        var input, filter, ul, li, item, i, txtValue;
+        input = document.getElementById("myInput");
+        filter = input.value.toUpperCase();
+        ul = document.getElementById("list");
+        li = ul.getElementsByTagName("li");  for (i = 0; i < li.length; i++) {
+          item = li[i];
+          txtValue = item.textContent || item.innerText;
+          if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+          } else {
+            li[i].style.display = "none";
+          }
+        }
+      }
+    </script> 
+  </body>
+</html>
