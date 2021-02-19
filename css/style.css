@@ -9,8 +9,7 @@ body {
     background-color: rgba(151, 151, 151, 0.03);
 }
 
-.fa-search,
-.fa-plus {
+.fa-search {
     font-size: 20px;
     outline: none;
     border: none;
